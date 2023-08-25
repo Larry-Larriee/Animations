@@ -35,5 +35,5 @@ img{
 }
 
 .spinner{
-    animation: spin 1s linear infinite;
+    animation: spin 250ms linear infinite;
 }

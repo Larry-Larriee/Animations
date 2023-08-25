@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Poppins&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+    gap: 3rem;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+}
+
+img{
+    max-width: 10rem;
+}
+
+@keyframes spin {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.spinner{
+    animation: spin 1s linear infinite;
+}

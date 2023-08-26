@@ -34,6 +34,10 @@ img{
     }
 }
 
-.spinner{
-    animation: spin 250ms linear infinite;
+.spin-normal{
+    animation: spin 1s infinite;
+}
+
+.spin-fast{
+    animation: spin 100ms infinite;
 }
